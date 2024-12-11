@@ -81,7 +81,7 @@ print(f'Проверка точность на чистых изображени
 model1.save('mnist_model_1.h5')
 ```
 
-![image]()
+![image](https://github.com/Archangel15520/azsii6/blob/main/screenshot/3.JPG)
 
 **Создание свёрточной нейронной сети на датасете MNIST с проверкой точности и сохранением:**
 
@@ -113,7 +113,7 @@ print(f'Проверка точность на чистых изображени
 model2.save('mnist_model_2.h5')
 ```
 
-![image]()
+![image](https://github.com/Archangel15520/azsii6/blob/main/screenshot/4.JPG)
 
 ## Шаг 2: Теория атаки по переносу
 
@@ -186,7 +186,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![image]()
+![image](https://github.com/Archangel15520/azsii6/blob/main/screenshot/1.JPG)
 
 ## Шаг 4: Оценка противоречивых примеров на обеих моделях
 
@@ -212,7 +212,7 @@ print(f"Точность полносвязной модели: {adversarial_acc
 print(f"Точность свёрточной модели: {adversarial_acc2:.4f}")
 ```
 
-![image]()
+![image](https://github.com/Archangel15520/azsii6/blob/main/screenshot/5.JPG)
 
 **Вывод:** 
 
@@ -248,7 +248,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![image]()
+![image](https://github.com/Archangel15520/azsii6/blob/main/screenshot/2.JPG)
 
 ## Шаг 6: Оценка противоречивых примеров на обеих моделях
 
@@ -272,7 +272,7 @@ print(f"Точность полносвязной модели на против
 print(f"Точность свёрточной модели на противоречивых примерах: {adversarial_acc4:.4f}")
 ```
 
-![image]()
+![image](https://github.com/Archangel15520/azsii6/blob/main/screenshot/6.JPG)
 
 **Вывод:** 
 
